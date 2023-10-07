@@ -1,0 +1,142 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.box{
+   width: 850px;
+   height: 220px;
+   background-color:  rgb(145, 205, 48);
+   margin-left: 350px;
+   margin-top: 100px;
+   border-radius: 8px;
+}
+
+input{
+   width: 620px;
+   height: 40px;
+   margin-left: 20px;
+   margin-top: 100px;
+   border-radius: 5px;
+   border: none;
+}
+
+.button {
+   position: relative;
+   width: 150px;
+   height: 40px;
+   cursor: pointer;
+   display: flex;
+   align-items: center;
+   border: 1px solid #34974d;
+   background-color: #3aa856;
+   margin-left: 670px;
+   margin-top: -40px;
+ }
+ 
+ .button, .button__icon, .button__text {
+   transition: all 0.3s;
+ }
+ 
+ .button .button__text {
+   transform: translateX(30px);
+   color: #fff;
+   font-weight: 600;
+ }
+ 
+ .button .button__icon {
+   position: absolute;
+   transform: translateX(109px);
+   height: 100%;
+   width: 39px;
+   background-color: #34974d;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ 
+ .button .svg {
+   width: 30px;
+   stroke: #fff;
+ }
+ 
+ .button:hover {
+   background: #34974d;
+ }
+ 
+ .button:hover .button__text {
+   color: transparent;
+ }
+ 
+ .button:hover .button__icon {
+   width: 148px;
+   transform: translateX(0);
+ }
+ 
+ .button:active .button__icon {
+   background-color: #2e8644;
+ }
+ 
+ .button:active {
+   border: 1px solid #2e8644;
+ }
+
+
+ .boxod{
+   height: 70px;
+   width: 850px;
+   background-color: rgb(145, 205, 48);
+   border-radius: 8px;
+   margin-left: 350px;
+   margin-top: 30px;
+ }
+
+ .todo-list{
+   font-size: 30px;
+   padding-top: 15px;
+   padding-left: 20px;
+   color: rgb(255, 255, 255);
+ }
+
+
+
+ .edit{
+  width: 100px;
+  height: 30px;
+  margin-left: 620px;
+  margin-top: -30px;
+  position: absolute;
+  border-radius: 8px;
+  border: none;
+  background-color: aqua;
+ }
+
+
+ #his{
+  border-radius: 10px;
+  width: 850px;
+  position: relative;
+  background-color: #ffffff;
+  padding: 30px 20px;
+  margin-top: 10px;
+  margin-left: 350px;
+}
+
+.task{
+  border-radius: 5px;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #12ed62;
+  cursor: pointer;
+  background-color: rgb(145, 205, 48);
+  height: 50px;
+  margin-bottom: 8px;
+  padding: 5px 10px;
+  display: flex;
+}
+.task span{
+  font-family: 'Poppins',sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
